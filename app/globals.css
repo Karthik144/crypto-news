@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.title {
+  font-weight: 700; 
+  font-size: 3rem; /* Use relative font size, adjust as needed */
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+
+.sub-title {
+
+  font-weight: 200; 
+  font-size: 1.75rem; /* Use relative font size, adjust as needed */
+  padding-top: 0.15rem;
+  padding-left: 1rem;
+
+}
+
+.articleHeader {
+  font-weight: 700; 
+  font-size: 1.5rem; /* Use relative font size, adjust as needed */
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+
+.articleTitle {
+  font-size: 1rem; /* Use relative font size, adjust as needed */
+  padding: 0.5rem;
+  padding-left: 1.5rem;
+  text-decoration: underline; /* Add underline */
+  color: blue; /* Change text color to blue */
+}
